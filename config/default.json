@@ -1,0 +1,7 @@
+{
+  "env": "default",
+  "appName": "app",
+  "appConfig": {
+    "port": 5000
+  }
+}
