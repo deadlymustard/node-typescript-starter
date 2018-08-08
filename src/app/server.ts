@@ -1,6 +1,6 @@
 import config from 'config';
 
-import {App} from './app';
+import {App} from "./app";
 import {logger} from './logger';
 
 const port = config.get('appConfig.port');

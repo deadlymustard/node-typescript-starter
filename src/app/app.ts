@@ -1,8 +1,8 @@
 import bodyParser from 'body-parser';
 import express from 'express';
 
-import {Index} from './routes';
-import {Api} from './routes/api';
+import {Index} from '../routes/index';
+import {Api} from '../routes/api';
 
 export class App {
   constructor() {
@@ -23,6 +23,7 @@ export class App {
 
     Index.create(router);
     Api.create(router);
+
 
     this.app.use('/', router);
   }

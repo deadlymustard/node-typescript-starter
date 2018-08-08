@@ -2,7 +2,7 @@
   "name": "node-typescript-starter",
   "version": "1.0.0",
   "description": "A starter kit for running a Node.js/Express Typescript app.",
-  "main": "./src/Server.ts",
+  "main": "./src/app/server.ts",
   "scripts": {
     "compile": "tsc -p .",
     "dev": "NODE_ENV=dev nodemon",
